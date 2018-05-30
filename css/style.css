@@ -1,0 +1,67 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFE2B5;
+  font-family: 'Open Sans';
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  border-radius: 6px;
+}
+
+h1 {
+  font-family: 'Permanent Marker';
+  font-size: 48px;
+  color: #000;
+}
+
+.list-item {
+  width: 450px;
+  height: 30px;
+  margin: 0 auto;
+  clear: both;
+  border-radius: 10px;
+}
+
+.list-item:nth-child(odd) {
+  background: #ECEAF0;
+}
+
+.add-button {
+  float: none;
+  background: #ECEAF0;
+  border-radius: 6px;
+}
+
+p,
+button {
+  display: inline;
+  margin: 5px;
+}
+
+p {
+  float: left;
+}
+
+button {
+  float: right;
+}
+
+.delete {
+  height: 30px;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.delete:hover {
+  background-color: #222;
+  border-radius: 10px;
+  color: #fff;
+}
